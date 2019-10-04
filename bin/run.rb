@@ -1,3 +1,9 @@
 require_relative '../config/environment'
 
-puts "hello world"
+system 'clear'
+show_splash
+cli_object = Cli.new
+cli_object.menu
+
+
+
