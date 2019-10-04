@@ -11,8 +11,9 @@ class Cli
     
 
     def initialize()
-        puts "\n\n============================================================================".green
-        puts "\n\n\nPlease type your name: "
+        puts "\n\n=======================================================".green
+        puts "\n\n\nPlease type your name:"
+        puts "----------------------------".green
         @username = get_username
         @appointment_controller = AppointmentController.new
         @patient_controller = PatientController.new
